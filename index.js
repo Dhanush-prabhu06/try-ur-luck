@@ -54,13 +54,13 @@ if(randomNumber2 == 6){
 
 
 if(randomNumber1 > randomNumber2){
-    document.querySelector("h2").innerHTML = "🚩 Player 1 WINS "
+    document.querySelector("#result").innerHTML = "🚩 Player 1 WINS "
 }
 
 if(randomNumber1 < randomNumber2){
-    document.querySelector("h2").innerHTML = "Player 2 wins 🚩"
+    document.querySelector("#result").innerHTML = "Player 2 wins 🚩"
 }
 
 if(randomNumber1 == randomNumber2){
-    document.querySelector("h2").innerHTML = "Tie"
+    document.querySelector("#result").innerHTML = "Tie"
 }

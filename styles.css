@@ -32,14 +32,24 @@ img {
   width: 80%;
 }
 
-footer {
-  margin-top: 5%;
-  color: #EEEEEE;
-  text-align: center;
-  font-family: 'Indie Flower', cursive;
-
-}
 
 h2{
   color: #4ECCA3;
+}
+
+
+#result{
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+  
+  display: block;
+ font-size: 4em;
+ margin-top: 0.67em;
+ margin-bottom: 0.67em;
+ margin-left: 0;
+ margin-right: 0;
+ font-weight: bold;
 }
